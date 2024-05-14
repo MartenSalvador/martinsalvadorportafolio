@@ -1,0 +1,131 @@
+<html lang="es"><head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Portafolio Martin Salvador</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+
+  <body>
+
+    <header>
+        <h1 class="titulo">Martin Salvador <span>Responsive Web Designer</span></h1>
+    </header>
+
+    <div class="nav-bg">
+        <nav class="navegacion-principal contenedor">
+            <a href="#seccion-inicio" >Inicio</a>
+            <a href="#seccion-info"  >Información</a>
+            <a href="#seccion-clientes" >Clientes</a>
+            <a href="#seccion-contacto">Contactos</a>
+        </nav>
+
+    </div>
+    
+    
+    <section class="hero">
+        <div class="contenido-hero">
+            <h2>Diseño y Desarrollo Web Freelancer</h2>
+            <div class="ubicacion">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="88" height="88" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffc107" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0"></path>
+                <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z"></path>
+                </svg>
+
+                <p>San Rafael, Mendoza</p>
+            </div>
+            <a  class="boton" href="#seccion-contacto">Contactar</a>
+        </div>
+        
+    </section>
+
+    <main class="contenedor sombra" >
+        <h3>Información</h3>
+
+        <div class="servicios">
+            <section class="servicio">
+                <img class="fotoPerfil" src="img/1613756301838.jpg" alt="Foto Martin">
+            </section>
+            <section class="servicio" id="seccion-info">
+                <h3>Sobre mi</h3>
+                <p>Soy Martín un amante de la programación. Comencé a estudiar de forma autodidacta y como un pasatiempo la manera de hacer páginas web y poco a poco fui adquiriendo más conociemientos y me decidí por fin a dedidarme a esto. Tengo certificados de varios cursos y conociemientos avanzados en HMTL5, CSS3 y JavaScript. Tengo las herramientas necesarias para crear paginas y aplicaciones web responsivas para lo que usted desee. No dude en consultar sus dudas, si usted tiene una idea yo se la hago realidad.</p>
+            </section>
+            
+            
+            <section class="servicio">
+                <h3>Redes</h3>
+                
+                <p> Mi perfil en GitHub <br>
+                    <a class="boton" href="https://github.com/MartenSalvador" target="_blank">GitHub</a>
+                    <br>Algunos proyectos subidos a CodePen <br><a class="boton" href="https://codepen.io/Martin-Salvador" target="_blank">CodePen</a>
+                    <br>En mi Linkedin pueden ver mis estudios y experiencias laborales <br> <a target="_blank" class="boton" href="https://www.linkedin.com/in/martinandressalvador/">Linkedin</a></p>
+            </section>
+            <section class="servicio">
+                <img class="fotoRedes" src="img/7936776.png" alt="Foto Redes">
+            </section>
+            <section class="servicio">
+                <img class="fotoPerfil" src="img/depositphotos_358716988-stock-illustration-project-development-related-color-line.jpg" alt="Foto Clientes">
+            </section>
+            <section class="servicio" id="seccion-clientes">
+                <h3>Clientes</h3>
+                
+                <p></p>
+            </section>
+            
+
+        </div>
+    
+
+
+
+    <section id="seccion-contacto">
+        <h2>Contacto</h2>
+
+        <form class="formulario">
+            <fieldset>
+                <legend>Contáctame llenando todos los campos</legend>
+
+                <div class="contenedor-campos">
+
+                    <div class="campo">
+                        <label>Nombre</label>
+                        <input class="input-text" type="text" placeholder="Tu Nombre">
+                    </div>
+                    
+                    <div class="campo">
+                        <label>Télefono</label>
+                    <input class="input-text" type="tel" placeholder="Tu Teléfono">
+                    </div>
+
+                    <div class="campo">
+                        <label>Correo</label>
+                        <input class="input-text" type="email" placeholder="Tu Email">
+                    </div>
+
+                    <div class="campo">
+                        <label>Mensaje</label>
+                        <textarea class="input-text"></textarea>
+                    </div>
+                </div><!---contenedor de los campos-->
+                <div class="alinear-derecha flex">
+                    
+                        <input class="boton w-100" type="submit" value="Enviar">
+                </div>
+                
+                
+            </fieldset>
+        </form>
+    </section>
+</main> 
+
+    <footer class="footer">
+        <p>Todos los derechos reservados. Martin Salvador Freelancer</p>
+        
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
